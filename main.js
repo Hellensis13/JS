@@ -7,14 +7,15 @@ let alexWeight1 = 92;
 const alexHeight1 = 1.95;
 
 // ex. 2
-let vadimBmi1 = vadimWeight1 / vadimHeight1 ** 2;
-let alexBmi1 = alexWeight1 / alexHeight1 **2;
+let vadimBmi1 = vadimWeight1 / (vadimHeight1 ** 2);
+let alexBmi1 = alexWeight1 / (alexHeight1 ** 2);
 console.log("Vadim BMI 1 is " + vadimBmi1);
 console.log("Alex BMI 1 is " + alexBmi1);
 
 
 // ex. 3
 let markHigherBMI1 = vadimBmi1 > alexBmi1;
+console.log("Is Vadim's BMI index higher than Alex's? " + markHigherBMI);
 
 
 // Varianta 2 
@@ -26,11 +27,12 @@ let alexWeight2 = 85;
 const alexHeight2 = 1.76;
 
 // ex. 2
-let vadimBmi2 = vadimWeight2 / vadimHeight2 ** 2;
-let alexBmi2 = alexWeight2 / alexHeight2 **2;
+let vadimBmi2 = vadimWeight2 / (vadimHeight2 ** 2);
+let alexBmi2 = alexWeight2 / (alexHeight2 ** 2);
 console.log("Vadim BMI 2 is " + vadimBmi2);
 console.log("Alex BMI 2 is " + alexBmi2);
 
 
 // ex. 3
 let markHigherBMI2 = vadimBmi2 > alexBmi2;
+console.log("Is Vadim's BMI index higher than Alex's? " + markHigherBMI);
